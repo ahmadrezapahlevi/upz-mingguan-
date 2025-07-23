@@ -1,0 +1,177 @@
+/* Reset & base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #f1f5f9;
+  color: #1e293b;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  background: #fff;
+  margin: auto;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+  text-align: center;
+  color: #0f766e;
+  margin-bottom: 20px;
+}
+
+/* Input styling */
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 8px 0;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 15px;
+  background: #f8fafc;
+  transition: border 0.3s;
+}
+
+input:focus {
+  border-color: #0f766e;
+  outline: none;
+}
+
+/* Button */
+button {
+  margin-top: 10px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+button#tambah {
+  background-color: #0f766e;
+  color: white;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+button#tambah:hover {
+  background-color: #0d6c64;
+}
+
+.btn {
+  width: 48%;
+  margin-top: 12px;
+}
+
+.btn.green {
+  background: #22c55e;
+  color: white;
+}
+
+.btn.green:hover {
+  background: #16a34a;
+}
+
+.btn.red {
+  background: #ef4444;
+  color: white;
+}
+
+.btn.red:hover {
+  background: #dc2626;
+}
+
+/* List Data */
+ul#listData {
+  list-style: none;
+  margin: 10px 0;
+  padding-left: 0;
+}
+
+ul#listData li {
+  background: #e2e8f0;
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul#listData li button {
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  color: #dc2626;
+  cursor: pointer;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9fafb;
+  padding: 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.hapus-btn {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.hapus-btn:hover {
+  background-color: #dc2626;
+}
+/* Responsive button layout */
+@media (max-width: 500px) {
+  .btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+/* Table Export Area */
+#laporanArea {
+  font-family: "Segoe UI", sans-serif;
+  color: #1e293b;
+}
+
+#laporanArea h3 {
+  color: #0f766e;
+  margin-bottom: 12px;
+}
+
+#laporanArea table {
+  margin-top: 10px;
+  font-size: 15px;
+  border: 1px solid #cbd5e1;
+}
+
+#laporanArea th,
+#laporanArea td {
+  text-align: left;
+  padding: 8px;
+}
+
+#laporanArea th {
+  background-color: #e0f2f1;
+  color: #0f766e;
+}
