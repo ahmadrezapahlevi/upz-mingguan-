@@ -19,6 +19,7 @@
 
     <p><strong>Total Zakat:</strong> <span id="totalZakat">Rp 0</span></p>
     <p><strong>Operasional:</strong> <input type="number" id="operasional" value="0"></p>
+        <p><strong>Pembebasan Tanah:</strong> <input type="number" id="pembebasanTanah" value="0"></p>
     <p><strong>Sisa Dana:</strong> <span id="sisaDana">Rp 0</span></p>
 
     <button id="exportBtn" class="btn green">📄 Export PDF</button>
@@ -52,6 +53,10 @@
       <tr>
         <td style="padding: 10px; border: 1px solid #cbd5e1;"><strong>Biaya Operasional</strong></td>
         <td style="padding: 10px; border: 1px solid #cbd5e1;" id="exportOperasional"></td>
+      </tr>
+      <tr>
+       <td style="padding: 10px; border: 1px solid #cbd5e1;"><strong>Pembebasan Tanah</strong></td>
+       <td style="padding: 10px; border: 1px solid #cbd5e1;" id="exportPembebasan">${pembebasanVal}</td>
       </tr>
       <tr>
         <td style="padding: 10px; border: 1px solid #cbd5e1;"><strong>Sisa Dana</strong></td>
